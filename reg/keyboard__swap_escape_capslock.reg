@@ -1,0 +1,9 @@
+REGEDIT4
+
+; This remaps the keyboard so that you can use capslock for escape.
+; This is a HUGE timesaver while using Vim.
+;
+; http://vim.wikia.com/wiki/Map_caps_lock_to_escape_in_Windows
+
+[HKEY_CURRENT_USER\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,3a,00,46,00,01,00,3a,00,00,00,00,00
