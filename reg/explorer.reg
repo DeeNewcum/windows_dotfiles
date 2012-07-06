@@ -1,0 +1,32 @@
+Windows Registry Editor Version 5.00
+
+; set the settings for Explorer.exe > Tools > Folder Options > View
+; 
+;		http://msdn.microsoft.com/en-us/library/cc422937.aspx
+
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+
+; == display the contents of system folders
+"WebViewBarricade"=dword:00000000
+
+; == show hidden files and folders
+"Hidden"=dword:00000001
+
+; == don't hide protected operating system files
+"ShowSuperHidden"=dword:00000001
+
+; == don't hide extensions for known file types
+"HideFileExt"=dword:00000000
+
+; == remember each folder's view settings
+"ClassicViewState"=dword:00000000
+
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState]
+
+; == display the full path in the address bar
+"FullPathAddress"=dword:00000001
+
+; == display the full path in the title bar
+"FullPath"=dword:00000001
