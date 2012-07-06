@@ -2,6 +2,6 @@ My [Un*x dotfile repository](https://github.com/DeeNewcum/dotfiles) is much more
 
 Files here are something vaguely similar, but for Windows.
 
-== Setup ==
+## Setup ##
 
 There is no setup script currently.  Individual features are enabled by double-clicking on the relevant feature-file.
